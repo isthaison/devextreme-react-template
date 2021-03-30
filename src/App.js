@@ -1,8 +1,10 @@
+
+import React from "react";
+import { HashRouter as Router } from "react-router-dom";
 import "devextreme/dist/css/dx.common.css";
 import "./themes/generated/theme.base.css";
 import "./themes/generated/theme.additional.css";
-import React from "react";
-import { HashRouter as Router } from "react-router-dom";
+
 import "./dx-styles.scss";
 import LoadPanel from "devextreme-react/load-panel";
 import { NavigationProvider } from "./contexts/navigation";
@@ -15,7 +17,7 @@ function App() {
   const { user, loading } = useAuth();
 
   if (loading) {
-    return <LoadPanel visible={true} />;
+    return <LoadPanel  />;
   }
 
   if (user) {
@@ -31,7 +33,7 @@ export  function Root () {
   return (
     <Router>
       <AuthProvider>
-        <NavigationProvider>
+        <NavigationProvider >
           <div className={`app ${screenSizeClass}`}>
             <App />
           </div>

@@ -11,7 +11,7 @@ import { Template } from 'devextreme-react/core/template';
 import { useMenuPatch } from '../../utils/patches';
 
 export  function SideNavInnerToolbar ({ title, children }) {
-  const scrollViewRef = useRef();
+  const scrollViewRef = useRef(null);
   const history = useHistory();
   const { isXSmall, isLarge } = useScreenSize();
   const [patchCssClass, onMenuReady] = useMenuPatch();
