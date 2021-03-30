@@ -1,3 +1,3 @@
-export { default as HomePage } from './home/home';
-export { default as ProfilePage } from './profile/profile';
-export { default as TasksPage } from './tasks/tasks';
+export {  HomePage } from './home/home';
+export {  ProfilePage } from './profile/profile';
+export {  TasksPage } from './tasks/tasks';

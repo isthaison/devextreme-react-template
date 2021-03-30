@@ -7,7 +7,7 @@ import './side-navigation-menu.scss';
 
 import * as events from 'devextreme/events';
 
-export default function (props) {
+export  function SideNavigationMenu(props) {
   const {
     children,
     selectedItemChanged,

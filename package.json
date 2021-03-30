@@ -1,6 +1,7 @@
 {
   "name": "devextreme-react-template",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -13,8 +14,8 @@
     "node-sass": "^4.11.0",
     "react-router-dom": "^5.0.0",
     "react-app-polyfill": "^1.0.0",
-    "devextreme": "^20.2.4",
-    "devextreme-react": "20.2.3"
+    "devextreme": "^20.2.6",
+    "devextreme-react": "20.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
