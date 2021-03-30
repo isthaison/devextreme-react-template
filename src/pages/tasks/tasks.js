@@ -15,7 +15,7 @@ export  function TasksPage () {
 
       <DataGrid
         className={'dx-card wide-card'}
-        dataSource={dataSource}
+        dataSource={[]}
         showBorders={false}
         focusedRowEnabled={true}
         defaultFocusedRowIndex={0}
@@ -73,25 +73,6 @@ export  function TasksPage () {
       </DataGrid>
     </React.Fragment>
   );
-};
-
-const dataSource = {
-  store: {
-    type: 'odata',
-    key: 'Task_ID',
-    url: 'https://js.devexpress.com/Demos/DevAV/odata/Tasks'
-  },
-  expand: 'ResponsibleEmployee',
-  select: [
-    'Task_ID',
-    'Task_Subject',
-    'Task_Start_Date',
-    'Task_Due_Date',
-    'Task_Status',
-    'Task_Priority',
-    'Task_Completion',
-    'ResponsibleEmployee/Employee_Full_Name'
-  ]
 };
 
 const priorities = [

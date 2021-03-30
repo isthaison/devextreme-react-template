@@ -3657,7 +3657,7 @@ core-js@^2.4.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.5.0, core-js@^3.6.5:
+core-js@^3.6.5:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.9.1.tgz#cec8de593db8eb2a85ffb0dbdeb312cb6e5460ae"
   integrity sha512-gSjRvzkxQc1zjM/5paAmL4idJBFzuJoo+jDjF1tStYFMV2ERfD02HhahhCGXUyHxQRG4yFKVSdO6g62eoRMcDg==
@@ -4228,10 +4228,10 @@ devexpress-gantt@2.0.24:
     "@devexpress/utils" "1.3.2"
     tslib "2.1.0"
 
-devextreme-cli@1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/devextreme-cli/-/devextreme-cli-1.2.6.tgz#d25a926ee3e2516e1c80b4030db6428d762fe769"
-  integrity sha512-6DuVsW0Ps828Yco7h/GYKwoWSTzjasLpSPJNk6MOd2XakQeAyrt7OFoYswfZNQ9US83FsHbag7ix2tVVbWGm5A==
+devextreme-cli@1.2.11:
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/devextreme-cli/-/devextreme-cli-1.2.11.tgz#1b87b3b1e0b3044b18b3b5911efcd45b861b2e2e"
+  integrity sha512-K3LmJiLasdfWHOSMyXS0Oh0B3GDVny+5UmX36iGDv820uKqT8LFKo2NacVoB2VLdpibjgKD6dQk+v5IgHh+eyA==
   dependencies:
     "@yarnpkg/lockfile" "^1.1.0"
     dart-sass "^1.25.0"
@@ -4241,6 +4241,7 @@ devextreme-cli@1.2.6:
     mustache "^3.0.1"
     prompts "^2.0.4"
     semver "^5.6.0"
+    strip-bom "^4.0.0"
 
 devextreme-quill@~0.10.2:
   version "0.10.3"
@@ -4264,7 +4265,7 @@ devextreme-react@20.2.6:
     dot "^1.1.2"
     prop-types "^15.6.1"
 
-devextreme-themebuilder@^20.2.4:
+devextreme-themebuilder@^20.2.6:
   version "20.2.6"
   resolved "https://registry.yarnpkg.com/devextreme-themebuilder/-/devextreme-themebuilder-20.2.6.tgz#b180f013c38bf3aee3feaaeed55821e4114b4078"
   integrity sha512-VbZc7erG7KPz74mxCCLSDFJwP5CMjkqN1A4N4ZTPdsGESfaxILrqkoxzjLtKBPPyF9TL+APcJr2X4BA+24rTtg==
@@ -9450,7 +9451,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-promise@^8.0.3, promise@^8.1.0:
+promise@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/promise/-/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
   integrity sha512-W04AqnILOL/sPRXziNicCjSNRruLAuIHEOVBazepu0545DDNGYHz7ar9ZgZ1fMU8/MA4mVxp5rkBWRi6OXIy3Q==
@@ -9642,18 +9643,6 @@ raw-body@2.4.0:
     http-errors "1.7.2"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
-
-react-app-polyfill@^1.0.0:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-1.0.6.tgz#890f8d7f2842ce6073f030b117de9130a5f385f0"
-  integrity sha512-OfBnObtnGgLGfweORmdZbyEz+3dgVePQBb3zipiaDsMHV1NpWm0rDFYIVXFV/AK+x4VIIfWHhrdMIeoTLyRr2g==
-  dependencies:
-    core-js "^3.5.0"
-    object-assign "^4.1.1"
-    promise "^8.0.3"
-    raf "^3.4.1"
-    regenerator-runtime "^0.13.3"
-    whatwg-fetch "^3.0.0"
 
 react-app-polyfill@^2.0.0:
   version "2.0.0"
@@ -9960,7 +9949,7 @@ regenerator-runtime@^0.11.0:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
-regenerator-runtime@^0.13.3, regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.7:
+regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.7:
   version "0.13.7"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
@@ -12077,7 +12066,7 @@ whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@^3.0.0, whatwg-fetch@^3.4.1:
+whatwg-fetch@^3.4.1:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
   integrity sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==
