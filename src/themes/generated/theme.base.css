@@ -2609,7 +2609,7 @@
 }
 .dx-scrollable-native {
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  -ms-scroll-snap-type: proximity;
+  scroll-snap-type: proximity;
 }
 .dx-scrollable-native .dx-scrollable-scrollbar {
   display: none;
@@ -2732,7 +2732,7 @@
 }
 .dx-scrollable-scroll {
   position: relative;
-  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
   padding: 2px 0 2px 2px;
   background-color: transparent;
   opacity: 1;
@@ -2782,7 +2782,7 @@
   pointer-events: none;
 }
 .dx-scrollable-content {
-  -webkit-transform: none;
+  transform: none;
 }
 .dx-rtl .dx-scrollable-scroll {
   padding-left: 0;
@@ -3641,7 +3641,6 @@
   display: block;
   -webkit-user-drag: none;
   color: rgba(0,0,0,.54);
-  vertical-align: middle;
   width: 24px;
   height: 24px;
   background-position: 0 0;
@@ -4761,7 +4760,6 @@
   color: transparent;
   display: inline-block;
   width: 0;
-  float: left;
 }
 .dx-list .dx-empty-message {
   overflow: hidden;
@@ -4899,7 +4897,7 @@
   overflow: hidden;
 }
 .dx-device-ios .dx-list-slide-menu-buttons-container {
-  -webkit-mask-image: -webkit-radial-gradient(white,#000);
+  mask-image: -webkit-radial-gradient(white,#000);
 }
 .dx-list-slide-menu-buttons {
   position: relative;
@@ -8268,7 +8266,7 @@
   overflow: hidden;
 }
 .dx-device-ios .dx-popover-arrow::after {
-  -webkit-transform: rotate(-45deg) translateZ(0);
+  transform: rotate(-45deg) translateZ(0);
 }
 .dx-popover-wrapper .dx-popup-title {
   margin: 0;
@@ -15088,7 +15086,6 @@ input.dx-hidden {
 .dx-pivotgrid .dx-filter-header .dx-pivotgrid-toolbar {
   margin-right: 10px;
   float: right;
-  display: inline-block;
 }
 .dx-pivotgrid .dx-column-header .dx-pivotgrid-toolbar .dx-pivotgrid-field-chooser-button,
 .dx-pivotgrid .dx-filter-header .dx-pivotgrid-toolbar .dx-pivotgrid-field-chooser-button {
@@ -16727,7 +16724,6 @@ input.dx-hidden {
   border: 1px solid #e0e0e0;
   background-color: #fff;
   position: relative;
-  display: inline-block;
   overflow: hidden;
   height: 100%;
   width: 100%;
